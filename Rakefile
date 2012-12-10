@@ -27,13 +27,13 @@ rescue LoadError
   require 'rake/rdoctask'
 end
 
-require_relative './lib/iso_bsd-i18n'
+require_relative './lib/color_name-i18n'
 
 Rake::RDocTask.new do |rdoc|
-  version = IsoBsdI18n::VERSION
+  version = ColorNameI18n::VERSION
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "iso_bsd-i18n #{version}"
+  rdoc.title = "color_name-i18n #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
