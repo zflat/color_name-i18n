@@ -1,6 +1,6 @@
 en:
   colors:
-    'FF000000': 
+    'FF0000': 
       name: red
       alt: brick
     '0000FF':
