@@ -31,9 +31,6 @@ doc/
 # jeweler generated
 pkg
 
-
-.localeapp/
-
 # Annoying temp files
 *~
 *.out
@@ -43,4 +40,4 @@ pkg
 .#*
 *#
 
-.localeapp/
+.localeapp/.localeapp
