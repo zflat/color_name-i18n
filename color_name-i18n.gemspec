@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require 'color_name-i18n'
 
 Gem::Specification.new do |s|
-  s.name = %q{iso_bsd-i18n}
+  s.name = %q{color_name-i18n}
   s.version = ColorNameI18n::VERSION
   s.homepage = "http://freeridepg.org/"
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
