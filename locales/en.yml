@@ -1,0 +1,8 @@
+en:
+  colors:
+    #FF000000: 
+      name: red
+      alt: brick
+    #0000FF:
+      name: blue
+
