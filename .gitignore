@@ -12,7 +12,35 @@ test/tmp
 test/version_tmp
 tmp
 
-# YARD artifacts
+# rcov generated
+coverage
+
+# rdoc generated
+rdoc
+
+# yard generated
+doc
 .yardoc
 _yardoc
 doc/
+
+
+# bundler
+.bundle
+
+# jeweler generated
+pkg
+
+
+.localeapp/
+
+# Annoying temp files
+*~
+*.out
+*.project
+*.DS_Store
+*~
+.#*
+*#
+
+.localeapp/
