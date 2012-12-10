@@ -1,3 +1,3 @@
-module ColorName18n
+module ColorNameI18n
   VERSION = '0.1.1' unless defined?(VERSION)
 end
