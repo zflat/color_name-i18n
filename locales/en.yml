@@ -1,46 +1,68 @@
 en:
-  colors:
+  color_keys_messages:
+    invalid_key: color key is invalid
+  color_keys:
     'FF0000': 
       name: red
       alt: brick
     '0000FF':
       name: blue
+      alt: 
     'FFFF00':
       name: yellow
+      alt: 
     'A52A2A':
       name: brown
+      alt: 
     'FFFFFF':
       name: white
+      alt: 
     'C0C0C0':
       name: silver
+      alt: 
     '808080':
       name: gray
+      alt: 
     '000000':
       name: black
+      alt: ebony
     'D2B48C':
       name: tan
+      alt: 
     '7F0000':
       name: maroon
+      alt: 
     'FFD700':
       name: gold
+      alt: 
     'FFA500':
       name: orange
+      alt: 
     '808000':
       name: olive
+      alt: 
     '006400':
       name: dark green
+      alt: 
     '00FF00':
       name: green
+      alt: 
     '90EE90':
       name: light green
+      alt: 
     '008080':
       name: teal
+      alt: 
     'ADD8E6':
       name: light blue
+      alt: 
     '000080':
       name: navy
+      alt: 
     'FFC0CB':
       name: pink
+      alt: 
     '7F007F':
       name: purple
+      alt: 
 

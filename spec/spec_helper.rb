@@ -2,6 +2,7 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'rspec'
 require 'i18n-spec'
+require 'color_name-i18n'
 
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.

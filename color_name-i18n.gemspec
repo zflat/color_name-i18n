@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency(%q<bundler>, ["~> 1.2"])
   s.add_dependency(%q<i18n>, [">= 0"])
+  s.add_dependency(%q<activemodel>, [">= 0"])
 
 end
 
