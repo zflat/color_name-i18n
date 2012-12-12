@@ -1,5 +1,6 @@
 require 'i18n'
 require_relative 'color_name-i18n/version'
+require_relative 'color_name-i18n/list'
 
 module ColorNameI18n
 

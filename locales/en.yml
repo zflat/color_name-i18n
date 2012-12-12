@@ -5,4 +5,42 @@ en:
       alt: brick
     '0000FF':
       name: blue
+    'FFFF00':
+      name: yellow
+    'A52A2A':
+      name: brown
+    'FFFFFF':
+      name: white
+    'C0C0C0':
+      name: silver
+    '808080':
+      name: gray
+    '000000':
+      name: black
+    'D2B48C':
+      name: tan
+    '7F0000':
+      name: maroon
+    'FFD700':
+      name: gold
+    'FFA500':
+      name: orange
+    '808000':
+      name: olive
+    '006400':
+      name: dark green
+    '00FF00':
+      name: green
+    '90EE90':
+      name: light green
+    '008080':
+      name: teal
+    'ADD8E6':
+      name: light blue
+    '000080':
+      name: navy
+    'FFC0CB':
+      name: pink
+    '7F007F':
+      name: purple
 
