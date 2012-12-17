@@ -1,6 +1,6 @@
 # encoding: utf-8
 $:.push File.expand_path("../lib", __FILE__)
-require 'color_name-i18n'
+require 'color_name-i18n/version'
 
 Gem::Specification.new do |s|
   s.name = %q{color_name-i18n}
