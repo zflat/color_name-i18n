@@ -49,6 +49,10 @@ module ColorNameI18n
       List.new(data[:alt]).to_a
     end
 
+    def to_s
+      self.key.to_s
+    end
+
     validates :key, :key_format => true, :key_lookup => true
 
     private 

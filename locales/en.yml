@@ -19,7 +19,7 @@ en:
       alt: 
     'C0C0C0':
       name: silver
-      alt: 
+      alt: chrome
     '808080':
       name: gray
       alt: 
@@ -28,13 +28,13 @@ en:
       alt: ebony
     'D2B48C':
       name: tan
-      alt: 
+      alt: beige
     '7F0000':
       name: maroon
       alt: 
     'FFD700':
       name: gold
-      alt: 
+      alt: bronze
     'FFA500':
       name: orange
       alt: 
@@ -43,7 +43,7 @@ en:
       alt: 
     '006400':
       name: dark green
-      alt: 
+      alt: forest green
     '00FF00':
       name: green
       alt: 
@@ -52,17 +52,17 @@ en:
       alt: 
     '008080':
       name: teal
-      alt: 
+      alt: aqua,turquoise
     'ADD8E6':
       name: light blue
-      alt: 
+      alt: sky blue
     '000080':
       name: navy
-      alt: 
+      alt: dark blue
     'FFC0CB':
       name: pink
       alt: 
     '7F007F':
       name: purple
-      alt: 
+      alt: violet
 

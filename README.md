@@ -7,6 +7,19 @@ A ruby translation project (managed on [Locale](http://www.localeapp.com/) ).
 When color is used to describe real-world objects that are represented in a computer system, provide a mapping to assist in allowing the color rendered on the screen, the color of a real life object, and the color stated verbally or in writing by different people to map to the same hex color-value. 
 
 
+## Usage
+
+* Get the list of color keys available
+
+	ColorNameI18n::keys
+
+* A color for a given color key
+
+	c = ColorNameI18n::Color.new(key)	
+	c.name # String
+	c.alt # Array of Strings
+	
+
 ## Source for color names
 
 Color names should reflect culturally accepted norms. However, a starting point to use for consistency is to follow the w3c specifications http://www.w3.org/TR/2011/REC-css3-color-20110607/ or color keywords.
