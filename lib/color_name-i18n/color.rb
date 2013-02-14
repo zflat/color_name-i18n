@@ -37,6 +37,10 @@ module ColorNameI18n
       end
     end
 
+    def has_key?
+      !!@key
+    end
+
     # Name of the color
     # @return [String]
     def name
