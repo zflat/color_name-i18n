@@ -4,6 +4,21 @@ module ColorNameI18n
 
   describe "Color" do
 
+    context "with a list" do
+      let(:list){['FFFFFF', '000000'].map{|c| Color.new(c)}}
+      let(:color){Color.new('FFFFFF')}
+      
+      context "given a color from the list" do
+        let(:color){Color.new('000000')}
+        describe "include?" do
+          it "is true" do
+            expect(list.include?(color)).to be_true
+            # Segal
+          end
+        end # describe "include?"
+      end # context "given a color from the list"
+    end
+
     describe "with custom data" do
       before :each do
         @d = {:key=>'123456',

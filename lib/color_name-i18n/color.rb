@@ -4,6 +4,7 @@ module ColorNameI18n
 
   class Color
     include ActiveModel::Validations
+    include Comparable
 
     class KeyFormatValidator < ActiveModel::EachValidator
       def validate_each(record, attribute, value)
@@ -39,6 +40,10 @@ module ColorNameI18n
 
     def has_key?
       !!@key
+    end
+    
+    def <=>(other)
+      key <=> other.key
     end
 
     # Name of the color
