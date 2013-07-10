@@ -41,6 +41,10 @@ module ColorNameI18n
     def has_key?
       !!@key
     end
+
+    def nil?
+      key.blank? || key.length == 0
+    end
     
     def <=>(other)
       key <=> other.key

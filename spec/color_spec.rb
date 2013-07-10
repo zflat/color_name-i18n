@@ -3,6 +3,13 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 module ColorNameI18n
 
   describe "Color" do
+    context "with nil key" do
+      let(:color){Color.new(nil)}
+
+      it "verifies as nil" do
+        expect(color).to be_nil
+      end
+    end
 
     context "with a list" do
       let(:list){['FFFFFF', '000000'].map{|c| Color.new(c)}}
