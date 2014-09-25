@@ -24,7 +24,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<rake>, [">= 0"])
   s.add_development_dependency(%q<rspec>, [">= 1.3.0"])
   s.add_development_dependency(%q<i18n-spec>, [">= 0"])
-  s.add_development_dependency(%q<i18n>, [">= 0"])
   s.add_development_dependency(%q<localeapp>, [">= 0"])
 
   s.add_runtime_dependency(%q<activemodel>, [">= 0"], [">= 0"])
